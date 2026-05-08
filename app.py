@@ -788,11 +788,11 @@ def main():
         [col1, col2, col3],
         [
             ("Reference Image",  "tag-required",  "Required",
-             "Upload the client reference image.",        "reference"),
+             "Upload the client reference image.",        "reference",  True),
             ("Model Front View", "tag-required",  "Required",
-             "Upload the current sculpt front view.",     "front"),
+             "Upload the current sculpt front view.",     "front",      True),
             ("Model Side View",  "tag-optional", "Optional",
-             "Add a side view for stronger structure feedback.", "side"),
+             "Add a side view for stronger structure feedback.", "side",  False),
         ],
     ):
         with col:
