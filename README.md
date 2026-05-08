@@ -123,6 +123,12 @@ streamlit run app.py
 
 ---
 
+## 界面风格
+
+The interface is designed with a clean Apple-inspired product style and supports Demo Mode without an API key.
+
+---
+
 ## 常见问题
 
 **Q: 启动后显示 Demo Mode？**
