@@ -1,0 +1,21 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Streamlit secrets (never upload!)
+.streamlit/secrets.toml
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tmp
