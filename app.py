@@ -844,7 +844,7 @@ def main():
 
     # ── Analyze Button ────────────────────────────────────────
     st.markdown('<div class="analyze-btn-wrap">', unsafe_allow_html=True)
-    analyze = st.button("Analyze Sculpt Match", kind="primary")
+    analyze = st.button("Analyze Sculpt Match", use_container_width=True)
     st.markdown('</div>', unsafe_allow_html=True)
     st.markdown(
         '<p class="analyze-hint">Your images stay private. Demo mode uses a sample report.</p>',
